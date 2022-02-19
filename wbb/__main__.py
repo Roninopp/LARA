@@ -107,11 +107,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="❓ Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="http://t.me/aastrem",
+                text="Support Channel",
+                url="https://t.me/szteambots",
             ),
         ],
         [
@@ -120,7 +120,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/aastrem"
+                text="Support 👨", url="https://t.me/slbotzone"
             ),
         ],
         [
@@ -147,8 +147,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://t.me/aastrem",
+                text="Support Channel",
+                url="https://t.me/szteambots",
             ),
         ],
         [
@@ -156,7 +156,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/aastrem"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/slbotZone"),
         ],
     ]
 )
