@@ -130,7 +130,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
               text="ABOUT", 
-              url="http://t.me/slbotzone"
+              message="t.me/slbotzone"
             ),
           
          
@@ -158,7 +158,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
               text="ABOUT", 
-              url="http://t.me/slbotzone"
+              message="t.me/slbotzone"
             ),
           
         ],
