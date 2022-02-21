@@ -166,6 +166,7 @@ keyboard = InlineKeyboardMarkup(
 @app.on_message(filters.command("start"))
 async def start(_, message):
     if message.chat.type != "private":
+        await message.reply_sticker("CAACAgUAAx0CYv3bCAADCGITXFGc5nEQv7xQBfWGBleImdtZAALFAwACoLf5Vf2T3mYWxBb_HgQ")
         await message.reply_sticker("CAACAgUAAxkBAAIB_mITEuN1hpSflx2AYwy28Oyh2yF5AAK0BQACjtKYVFh40tqfgLosHgQ")
         return await message.reply(
             "Pm Me For More Details.", reply_markup=keyboard
@@ -190,6 +191,7 @@ async def start(_, message):
                 reply_markup=keyb,
             )
     else:
+        await message.reply_sticker("CAACAgUAAx0CYv3bCAADCGITXFGc5nEQv7xQBfWGBleImdtZAALFAwACoLf5Vf2T3mYWxBb_HgQ")
         await message.reply_sticker("CAACAgUAAxkBAAIB_mITEuN1hpSflx2AYwy28Oyh2yF5AAK0BQACjtKYVFh40tqfgLosHgQ")
         await message.reply(
             home_text_pm,
