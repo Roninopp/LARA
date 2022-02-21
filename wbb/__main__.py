@@ -111,7 +111,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="📌Updates Channel📌",
-                url="https://t.me/szteambots",
+                url="https://t.me/SLNinjaTeamchannel",
             ),
         ],
         [
@@ -148,7 +148,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="📌Updates Channel📌",
-                url="https://t.me/szteambots",
+                url="https://t.me/SLNinjaTeamchannel",
             ),
          
         ],
