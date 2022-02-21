@@ -302,7 +302,9 @@ Also you can ask anything in Support Group.
 
 General command are:
  - /start: Start the bot
+ - /mstart: music help menu
  - /help: Give this message
+ 
  """
     if mod_match:
         module = (mod_match.group(1)).replace(" ", "_")
