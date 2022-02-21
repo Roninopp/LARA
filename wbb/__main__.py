@@ -120,7 +120,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="👨 Support 👨", url="https://t.me/slbotzone"
+                text="👨 Support 👨", url="https://t.me/SlNinjaTeam"
             ),
         ],
         [
@@ -157,7 +157,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="👨 Support 👨", url="t.me/slbotZone"),
+            InlineKeyboardButton(text="👨 Support 👨", url="https://t.me/SlNinjaTeam"),
         ],
     ]
 )
