@@ -166,6 +166,7 @@ keyboard = InlineKeyboardMarkup(
 @app.on_message(filters.command("start"))
 async def start(_, message):
     if message.chat.type != "private":
+        await message.reply_sticker("CAACAgUAAxkBAAIB_mITEuN1hpSflx2AYwy28Oyh2yF5AAK0BQACjtKYVFh40tqfgLosHgQ")
         return await message.reply(
             "Pm Me For More Details.", reply_markup=keyboard
         )
