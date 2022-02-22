@@ -97,13 +97,7 @@ async def inline_help_func(__HELP__):
             ),
             thumb_url="https://telegra.ph/file/b20680b4da51d86952d95.jpg",
         ),
-        InlineQueryResultArticle(
-          title="SUPPORT GROUP",
-          description="suport group.",
-          input_message_content=InputTextMessageContent(
-            "https://t.me/SlNinjaTeam"
-          ),
-          thumb_url="https://telegra.ph/file/b20680b4da51d86952d95.jpg",
+       
             
       
     ]
