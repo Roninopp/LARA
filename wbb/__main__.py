@@ -111,7 +111,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="📌Updates Channel📌",
-                url="https://t.me/SLNinjaTeamchannel",
+                url="https://https://t.me/RONIN_Fighters_Fd",
             ),
         ],
         [
@@ -120,7 +120,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="👨 Support 👨", url="https://t.me/SlNinjaTeam"
+                text="👨 Support 👨", url="https://https://t.me/RONIN_Fighters_Fd"
             ),
         ],
         [
@@ -148,7 +148,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="📌Updates Channel📌",
-                url="https://t.me/SLNinjaTeamchannel",
+                url="https://https://t.me/RONIN_Fighters_Fd",
             ),
          
         ],
@@ -157,7 +157,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="👨 Support 👨", url="https://t.me/SlNinjaTeam"),
+            InlineKeyboardButton(text="👨 Support 👨", url="https://https://t.me/RONIN_Fighters_Fd"),
         ],
     ]
 )
